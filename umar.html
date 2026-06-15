@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>umarrr's Hub - Tech Services for Students & Businesses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 100px;
+        }
+        
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+        
+        .scroll-btn {
+            animation: bounce 2s infinite;
+        }
+        
+        .nav-menu a.active {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+        
+        .nav-menu a.active::after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <!-- Logo image and text -->
+                <div class="logo-container">
+                    <div class="logo-img">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1><span class="highlight">umarrr's</span> Hub</h1>
+                        <p class="tagline">Digital Solutions for Students & Businesses</p>
+                    </div>
+                </div>
+            </div>             
+            <div class="contact-banner">
+    <i class="fas fa-phone-alt"></i>
+    <span>Call Now: <a href="tel:07036047684">07036047684</a></span>
+</div> 
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">My Story</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+     <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Transforming Ideas into Digital Reality</h2>
+                <p>Affordable, professional tech solutions tailored for University students and businesses. From concept to launch, I bridge the gap between your vision and digital presence.</p>
+                <div class="hero-btns">
+                    <a href="#services" class="btn">Explore Services</a>
+                    <a href="#contact" class="btn btn-secondary">Get Quote</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Client Satisfaction</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Support Available</p>
+                    </div>
+                </div>
+                 <!-- Scroll down button -->
+                <div class="scroll-down">
+                    <a href="#services" class="scroll-btn">
+                        <span>Explore Services</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="digital-shape"></div>
+                <div class="digital-shape"></div>
+                <div class="digital-shape"></div>
+                <div class="floating-element">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="floating-element">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Tech Services & Pricing</h2>
+            <p class="section-subtitle">Prices are flexible and subject to negotiation (T&Cs apply). Custom quotes available for combined services.</p>
+            
+            <div class="services-tabs">
+                <a href="#students-tab" class="tab-btn active">For Students</a>
+                <a href="#businesses-tab" class="tab-btn">For Businesses</a>
+            </div>
+            
+            <!-- Services for Students -->
+            <div class="services-grid active" id="students-tab">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Academic Website Development</h3>
+                    <p>Professional websites for academic projects, research presentations, and thesis displays.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Responsive Design</li>
+                        <li><i class="fas fa-check"></i> Project Documentation</li>
+                        <li><i class="fas fa-check"></i> 3 Revisions</li>
+                        <li><i class="fas fa-check"></i> 6 Months Support</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price">₦15,000 - ₦45,000</span>
+                        <span class="price-note">Depending on complexity</span>
+                    </div>
+                    <a href="#contact" class="service-btn">Get This Service</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Portfolio & CV Design</h3>
+                    <p>Eye-catching digital portfolios and CVs that stand out to employers and academic institutions.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Modern Design</li>
+                        <li><i class="fas fa-check"></i> SEO Optimized</li>
+                        <li><i class="fas fa-check"></i> Mobile Friendly</li>
+                        <li><i class="fas fa-check"></i> 2 Revisions</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price">₦12,000</span>
+                        <span class="price-note">One-time fee</span>
+                    </div>
+                    <a href="#contact" class="service-btn">Get This Service</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Assignment & Project Support</h3>
+                    <p>Comprehensive help with coding assignments, tech projects, and software development tasks.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Code Development</li>
+                        <li><i class="fas fa-check"></i> Documentation</li>
+                        <li><i class="fas fa-check"></i> Debugging</li>
+                        <li><i class="fas fa-check"></i> 1 Week Support</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price">₦8,000 - ₦25,000</span>
+                        <span class="price-note">Based on project scope</span>
+                    </div>
+                    <a href="#contact" class="service-btn">Get This Service</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Tech Skill Tutoring</h3>
+                    <p>One-on-one tutoring in web development, programming, and digital skills for students.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> HTML/CSS/JS</li>
+                        <li><i class="fas fa-check"></i> Python/Java Basics</li>
+                        <li><i class="fas fa-check"></i> Practical Projects</li>
+                        <li><i class="fas fa-check"></i> Flexible Schedule</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price">₦5,000/session</span>
+                        <span class="price-note">Discount for packages</span>
+                    </div>
+                    <a href="#contact" class="service-btn">Get This Service</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>E-Learning Setup</h3>
+                    <p>Complete setup of online learning platforms, course websites, and educational portals.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Course Management</li>
+                        <li><i class="fas fa-check"></i> Student Dashboard</li>
+                        <li><i class="fas fa-check"></i> Payment Integration</li>
+                        <li><i class="fas fa-check"></i> 3 Months Support</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price">₦35,000 - ₦80,000</span>
+                        <span class="price-note">Full package</span>
+                    </div>
+                    <a href="#contact" class="service-btn">Get This Service</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Software Installation & Setup</h3>
+                    <p>Help with installing, configuring, and troubleshooting academic and development software.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> IDE Setup</li>
+                        <li><i class="fas fa-check"></i> Database Configuration</li>
+                        <li><i class="fas fa-check"></i> System Optimization</li>
+                        <li><i class="fas fa-check"></i> Remote Support</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price">₦7,500</span>
+                        <span class="price-note">Per software package</span>
+                    </div>
+                    <a href="#contact" class="service-btn">Get This Service</a>
+                </div>
+            </div>
+            
+            <!-- Services for Businesses -->
+            <div class="services-grid" id="businesses-tab">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Business Website Development</h3>
+                    <p>Professional, responsive websites designed to convert visitors into customers.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> 5-10 Pages</li>
+                        <li><i class="fas fa-check"></i> Mobile Optimized</li>
+                        <li><i class="fas fa-check"></i> SEO Ready</li>
+                        <li><i class="fas fa-check"></i> 1 Year Support</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price">₦60,000 - ₦150,000</span>
+                        <span class="price-note">Based on features</span>
+                    </div>
+                    <a href="#contact" class="service-btn">Get This Service</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-Commerce Solutions</h3>
+                    <p>Full-featured online stores with product management, cart, and secure payment integration.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Product Catalog</li>
+                        <li><i class="fas fa-check"></i> Payment Gateway</li>
+                        <li><i class="fas fa-check"></i> Order Management</li>
+                        <li><i class="fas fa-check"></i> 6 Months Support</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price">₦120,000 - ₦300,000</span>
+                        <span class="price-note">Complete package</span>
+                    </div>
+                    <a href="#contact" class="service-btn">Get This Service</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Digital Marketing Setup</h3>
+                    <p>Complete setup of digital marketing tools, social media integration, and analytics.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Social Media Integration</li>
+                        <li><i class="fas fa-check"></i> Google Analytics</li>
+                        <li><i class="fas fa-check"></i> Email Marketing</li>
+                        <li><i class="fas fa-check"></i> 3 Months Support</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price">₦45,000</span>
+                        <span class="price-note">Setup + Training</span>
+                    </div>
+                    <a href="#contact" class="service-btn">Get This Service</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Business Process Automation</h3>
+                    <p>Custom solutions to automate repetitive tasks and streamline business operations.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Workflow Automation</li>
+                        <li><i class="fas fa-check"></i> Data Management</li>
+                        <li><i class="fas fa-check"></i> Report Generation</li>
+                        <li><i class="fas fa-check"></i> 6 Months Support</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price">₦85,000 - ₦200,000</span>
+                        <span class="price-note">Based on complexity</span>
+                    </div>
+                    <a href="#contact" class="service-btn">Get This Service</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Services Integration</h3>
+                    <p>Migration to cloud platforms, setup of cloud storage, and backup solutions.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Cloud Migration</li>
+                        <li><i class="fas fa-check"></i> Backup Solutions</li>
+                        <li><i class="fas fa-check"></i> Team Collaboration</li>
+                        <li><i class="fas fa-check"></i> 3 Months Support</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price">₦55,000 - ₦120,000</span>
+                        <span class="price-note">Based on data size</span>
+                    </div>
+                    <a href="#contact" class="service-btn">Get This Service</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Ongoing Tech Support</h3>
+                    <p>Monthly tech support packages for businesses needing consistent IT assistance.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> 24/7 Support</li>
+                        <li><i class="fas fa-check"></i> Website Maintenance</li>
+                        <li><i class="fas fa-check"></i> Security Updates</li>
+                        <li><i class="fas fa-check"></i> Performance Monitoring</li>
+                    </ul>
+                    <div class="service-price">
+                        <span class="price">₦25,000/month</span>
+                        <span class="price-note">Retainer package</span>
+                    </div>
+                    <a href="#contact" class="service-btn">Get This Service</a>
+                </div>
+            </div>
+            
+            <!-- Scroll to next section button -->
+            <div class="scroll-next">
+                <a href="#about" class="scroll-btn">
+                    <span>My Story</span>
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">My Story: Passion Meets Innovation</h2>
+            <div class="about-content">
+                <div class="bio-image">
+                    <img src="umar.jpg" alt="Usman Umar">
+                    <div class="image-frame"></div>
+                    <div class="bio-badge">
+                        <i class="fas fa-user-graduate"></i>
+                        <span>Bells University Student</span>
+                    </div>
+                </div>
+                <div class="bio-text">
+                    <h3>Usman Umar</h3>
+                    <p class="subtitle">Tech Entrepreneur & Digital Solution Provider</p>
+                    
+                    <div class="bio-section">
+                        <h4><i class="fas fa-map-marker-alt"></i> Driven by Curiosity</h4>
+                        <p>Growing up with limited resources taught me resilience, creativity, and the value of hard work. From an early age, I developed a strong passion for technology and problem-solving, always eager to explore how things work and how ideas can be turned into real solutions.</p>
+                    </div>
+                    
+                    <div class="bio-section">
+                        <h4><i class="fas fa-graduation-cap"></i>Who I Am</h4>
+                        <p>I'm Usman Umar, a 200-level student at Bells University, Ogun State, with roots in the vibrant streets of Lagos. My journey from Lagos' bustling neighborhoods to university life has fueled my passion for making technology accessible and affordable. I combine academic learning with practical experience to provide tech solutions that actually work for students and small businesses. As a fellow student, I understand tight budgets and tight deadlines—that's why I offer services that deliver real value without the premium price tag.</p>
+                    </div>
+                    
+                    <div class="bio-section">
+                        <h4><i class="fas fa-bullseye"></i> Ambition & Goals</h4>
+                        <p>My ambition is to become a leading tech solutions provider in Nigeria, bridging the digital divide for students and small businesses. I aim to create affordable, accessible technology services that empower others to achieve their goals, just as I'm working to achieve mine.</p>
+                        <p>Long-term, I envision building a tech hub that provides training, resources, and opportunities for young Nigerians from similar backgrounds, creating a pathway from the streets to sustainable tech careers.</p>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <h4>Direct Contact Information</h4>
+                        <div class="contact-grid">
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <p class="label">Phone / WhatsApp</p>
+                                    <a href="tel:09116420773" class="value clickable">09116420773</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <p class="label">Email Address</p>
+                                    <a href="mailto:gbolahanuu@gmail.com" class="value clickable">gbolahanuu@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-id-card"></i>
+                                <div>
+                                    <p class="label">Matric Number</p>
+                                    <p class="value">2024/13310</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-university"></i>
+                                <div>
+                                    <p class="label">Admission Year</p>
+                                    <p class="value">Bells University, 2024/2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="journey-timeline">
+                <h3>My Tech Journey Timeline</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2020</div>
+                        <div class="timeline-content">
+                            <h4>First Computer Encounter</h4>
+                            <p>Got my first real exposure to computers at a cyber cafe in Lagos, sparking my interest in technology.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2021</div>
+                        <div class="timeline-content">
+                            <h4>Self-Taught Coding</h4>
+                            <p>Started learning HTML and CSS through free online resources, building simple websites for practice.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022</div>
+                        <div class="timeline-content">
+                            <h4>First Paid Project</h4>
+                            <p>Completed my first paid website project for a local business, confirming I could turn my skills into income.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024</div>
+                        <div class="timeline-content">
+                            <h4>Admission to Bells University</h4>
+                            <p>Gained admission to study at Bells University in 2024, combining formal education with practical experience.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2025</div>
+                        <div class="timeline-content">
+                            <h4>Launch of umarrr's Hub</h4>
+                            <p>Formally launched my tech services business, offering specialized solutions for students and businesses.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Scroll to next section button -->
+            <div class="scroll-next">
+                <a href="#testimonials" class="scroll-btn">
+                    <span>Client Testimonials</span>
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Umar built my final year project website in just 2 weeks! His pricing is student-friendly and he understood exactly what I needed."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Chinwe Okafor</h4>
+                        <p>Computer Science Student</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Our small business needed an online presence quickly and affordably. umarrr's Hub delivered a professional website that exceeded our expectations."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Mr. Adebayo</h4>
+                        <p>Small Business Owner</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"As a fellow student entrepreneur, I appreciate Usman's understanding of budget constraints. He provides quality work at prices we can actually afford."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Funmi Balogun</h4>
+                        <p>Entrepreneur & Student</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-next">
+                <a href="#contact" class="scroll-btn">
+                    <span>Contact Me</span>
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get Your Project Started</h2>
+            <p class="section-subtitle">Reach out for a free consultation. I understand budget constraints and offer flexible payment options.</p>
+            
+            <div class="contact-content">
+                <div class="contact-methods">
+                    <div class="method">
+                        <div class="method-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h4>WhatsApp</h4>
+                        <p>Fastest response for quick inquiries and support</p>
+                        <a href="https://wa.me/2349116420773" class="contact-btn">Message Now <i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    
+                    <div class="method">
+                        <div class="method-icon">
+                            <i class="fas fa-envelope-open-text"></i>
+                        </div>
+                        <h4>Email</h4>
+                        <p>For detailed project discussions and proposals</p>
+                        <a href="mailto:gbolahanuu@gmail.com" class="contact-btn">Send Email <i class="fas fa-paper-plane"></i></a>
+                    </div>
+                    
+                    <div class="method">
+                        <div class="method-icon">
+                            <i class="fas fa-phone-volume"></i>
+                        </div>
+                        <h4>Direct Call</h4>
+                        <p>For urgent matters and immediate assistance</p>
+                        <a href="tel:09116420773" class="contact-btn">Call Now <i class="fas fa-phone"></i></a>
+                    </div>
+                </div>
+                
+            <div class="contact-form">
+    <h3>Send a Direct Message</h3>
+    <form action="https://formspree.io/f/xjggeypa" method="POST">
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+            <select name="service-type" required>
+                <option value="" disabled selected>Select Service Type</option>
+                <option value="student">Student Services</option>
+                <option value="business">Business Services</option>
+                <option value="other">Other Inquiry</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <textarea name="message" placeholder="Describe your project or inquiry..." rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</div>
+            </div>
+            
+            <div class="contact-note">
+                <p><i class="fas fa-lightbulb"></i> <strong>Student Discount:</strong> As a fellow student, I offer special discounted rates for academic projects. Just mention your institution when you contact me!</p>
+            </div>
+            
+            <div class="scroll-top">
+                <a href="#home" class="scroll-btn">
+                    <i class="fas fa-chevron-up"></i>
+                    <span>Back to Top</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-container">
+                        <div class="logo-img">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="logo-text">
+                            <h3><span class="highlight">umarrr's</span> Hub</h3>
+                            <p>From Ideas to Innovative Solutions.</p>
+                        </div>
+                    </div>
+                    <div class="footer-social">
+                        <p><i class="fas fa-phone"></i> <a href="tel:09116420773">09116420773</a></p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:gbolahanuu@gmail.com">gbolahanuu@gmail.com</a></p>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services & Pricing</a></li>
+                        <li><a href="#about">My Story</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h4>Top Services</h4>
+                    <ul>
+                        <li><a href="#services">Student Websites</a></li>
+                        <li><a href="#services">Business Websites</a></li>
+                        <li><a href="#services">E-Commerce Solutions</a></li>
+                        <li><a href="#services">Tech Tutoring</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Location & Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Lagos & Ogun State, Nigeria</p>
+                    <p><i class="fas fa-university"></i> Bells University of Technology</p>
+                    <p><i class="fas fa-id-card"></i> Matric: 2024/13310</p>
+                    <p><i class="fas fa-calendar-alt"></i> Admission: 2024/2025</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 umarrr's Hub. All rights reserved. | A student enterprise serving students and businesses.</p>
+                <p>Designed & Developed with HTML & CSS only - No JavaScript | From Ideas to Innovative Solutions.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
